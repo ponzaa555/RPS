@@ -98,7 +98,7 @@ contract RPS is CommitReveal {
 
         restartgame();
     }
-    function restartgame() public {
+    function restartgame() private  {
         numPlayer = 0;
         reward = 0;
         numberreveal = 0 ;
