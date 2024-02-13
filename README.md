@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-
+# รูปอยู่ด้านล่างนะครับอาจารย์
 pragma solidity >=0.7.0 <0.9.0;
 import "./CommitReveal.sol";
 
@@ -128,7 +128,24 @@ contract RPS is CommitReveal {
     }
 }
 ภาพตัวอย่างการเล่น สัก 2 เกม
+-เพิ่มผู้เล่น 2 คน ตอน แรกมี 100ETH ทั้ง 2 คน
 ![image](https://github.com/ponzaa555/RPS/assets/100279911/355ea92a-5858-45f2-8acc-f7cc41161d22)
+
+-คนadress 0x787 เลือก 5-Air
+![image](https://github.com/ponzaa555/RPS/assets/100279911/7702c944-ba98-4725-9d4f-8c571d216cd7)
+-คนadress 0x617 เลือก 0-Rock
+![image](https://github.com/ponzaa555/RPS/assets/100279911/0a003c18-2413-4484-a031-b3f22e3361ab)
+-จะมี NumberInput = 2 และ nuberreveal = 0 ยังไม่มีใครเปิดใผ่ของตัวเอง
+![image](https://github.com/ponzaa555/RPS/assets/100279911/74004bb1-ed6b-4296-a94f-d1d1fc640240)
+- หลังจากเปิดไผ่ทั้ง 2 เงินจะโอนไปยัง 0x787 เพราะ Air ชนะ 6-water 0-rock 1-fire
+  ![image](https://github.com/ponzaa555/RPS/assets/100279911/e2951b3b-8f9e-4c85-acae-221439d728b5)
+- ละ contract จะ reset เอง
+![image](https://github.com/ponzaa555/RPS/assets/100279911/9c8714d0-9c4e-4594-8c93-71e3d3851137)
+-ละเล่นใหม่ได้
+
+
+
+
 
 
 
